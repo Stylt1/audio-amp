@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|622300|1562100|e177690f-69bf-4853-b4cd-d7bdd5cb58d6|00000000-0000-0000-0000-000000000000|/2979e7f2-ebb3-4f37-a8bc-7832cd0c1829|/2979e7f2-ebb3-4f37-a8bc-7832cd0c1829|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -653,7 +658,7 @@
         "uuid": "2979e7f2-ebb3-4f37-a8bc-7832cd0c1829"
       }
     ],
-    "used_designators": "J1-4,U1",
+    "used_designators": "#FLG1,RV1-2,SW1,R1-2,FB1-4,C1-27,#PWR1-15,J1-4,U1",
     "variants": []
   },
   "sheets": [
