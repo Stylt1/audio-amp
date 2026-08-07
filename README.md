@@ -60,7 +60,8 @@ Designed by **Stylt**.
 
 
 <p align="center">
-  <img width="2740" height="1304" alt="Snímek obrazovky 2026-08-07 v 18 47 46" src="https://github.com/user-attachments/assets/5ceffd5d-2d60-45c3-9fcd-125b2c38d460" />
+    <img width="2740" height="1304" alt="BlockDiagram" src="https://github.com/user-attachments/assets/72f61a8e-5d86-40e7-8b3a-f42004b35f66" />
+
 
 </p>
 
@@ -70,10 +71,6 @@ Designed by **Stylt**.
 
 All production files required for manufacturing and PCBA assembly are located in the `production/` directory or under [GitHub Releases](../../releases):
 
-- 🏭 **[Gerber Files (ZIP)](./production/gerbers/Gerber_AudioAMP_V1.zip):** Complete Gerber & Drill files for 4-layer PCB manufacturing (JLCPCB, PCBWay, etc.)
-- 📊 **[Bill of Materials (BOM CSV)](./production/bom/BOM_AudioAMP_V1.csv):** Detailed component specifications and part numbers
-- 🌐 **[Interactive HTML BOM](./production/bom/ibom.html):** Visual assembly guide for manual soldering
-- 📐 **[Schematic (PDF)](./production/schematics/Schematic_AudioAMP_V1.pdf):** Full schematic in high-resolution PDF format
 
 ---
 
@@ -98,17 +95,17 @@ AudioAMP-V1/
 ### 3D Render
 | Top View | Angled View |
 |:---:|:---:|
-| <img width="971" height="1344" alt="Snímek obrazovky 2026-08-06 v 15 42 21" src="https://github.com/user-attachments/assets/193f9201-fb71-416f-9d39-afbb3151dd46" />| <img width="2243" height="1335" alt="Snímek obrazovky 2026-08-06 v 15 40 52" src="https://github.com/user-attachments/assets/a0718cc9-ff08-498e-bb57-891cbe793cf8" />|
+| <img width="909" height="1336" alt="Top" src="https://github.com/user-attachments/assets/feff9031-86a0-4d03-be18-47cd55577b35" />| <img width="2417" height="1343" alt="Angle frontleft" src="https://github.com/user-attachments/assets/9a42c538-1c57-48ca-b0b9-cee50218d111" />|
 
 ### 4-Layer PCB Layout
 
 | Top Layer (F.Cu) | Inner Layer 1 (In1.Cu - GND) |
 |:---:|:---:|
-| <img width="1347" height="1256" alt="Snímek obrazovky 2026-08-06 v 15 07 17" src="https://github.com/user-attachments/assets/e15919ae-fc97-48ef-800a-da1e12f1fdf3" /> | <img width="1043" height="1259" alt="Snímek obrazovky 2026-08-06 v 15 07 26" src="https://github.com/user-attachments/assets/84594b02-81ca-4bdd-bb3a-f4e673fea428" />|
+| <img width="1347" height="1256" alt="F Cu" src="https://github.com/user-attachments/assets/2611ad77-9ca9-4f3d-9520-ee8e6831e674" />| <img width="1043" height="1259" alt="In1 Cu" src="https://github.com/user-attachments/assets/0017a4ce-5c38-46d5-b543-d16e475f7059" />|
 
 | Inner Layer 2 (In2.Cu - PWR) | Bottom Layer (B.Cu) |
 |:---:|:---:|
-| <img width="1027" height="1257" alt="Snímek obrazovky 2026-08-06 v 15 07 31" src="https://github.com/user-attachments/assets/76b6a959-e93a-4d59-9612-563feb7c95b3" /> | <img width="985" height="1260" alt="Snímek obrazovky 2026-08-06 v 15 07 37" src="https://github.com/user-attachments/assets/7d849792-37f8-401f-be16-bf2aa80e22e0" /> |
+| <img width="1027" height="1257" alt="In2 Cu" src="https://github.com/user-attachments/assets/1d90d841-72d0-4569-82bc-e39c5f569468" />| <img width="985" height="1260" alt="B Cu" src="https://github.com/user-attachments/assets/34eb496e-ffb1-45eb-8bda-2e6d4e63b926" />|
 
 ### Schematic Diagram
 <img width="1553" height="1356" alt="Snímek obrazovky 2026-08-06 v 15 06 18" src="https://github.com/user-attachments/assets/68c90107-bf69-483f-a78a-7b18bfb6e8da" />
