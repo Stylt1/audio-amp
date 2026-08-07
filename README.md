@@ -6,8 +6,7 @@
 ![EDA](https://img.shields.io/badge/EDA-KiCad-yellow)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-purple.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-
-Welcome to the **AudioAMP V1** repository! This project features a custom-designed and efficient 4-layer Class-D stereo audio amplifier based on the popular **PAM8610** IC, delivering up to **2x 10W** output power.
+This project features a custom-designed and efficient 4-layer Class-D stereo audio amplifier based on the popular **PAM8610** IC, delivering up to **2x 10W** output power.
 Designed by **Stylt**.
 
 ---
