@@ -83,7 +83,7 @@ All production files required for manufacturing and PCBA assembly are located in
 AudioAMP-V1/
 ├── hardware/              # KiCad project source files (.kicad_pro, .kicad_sch, .kicad_pcb)
 ├── production/            # Manufacturing deliverables
-│   ├── bom/               # Bill of Materials (CSV + Interactive HTML BOM)
+│   ├── bom/               # Bill of Materials (CSV)
 │   ├── gerbers/           # 4-Layer Gerber files (ZIP archive)
 │   └── schematics/        # Schematic diagram (PDF)
 ├── img/                   # Documentation graphics, 3D renders, and layer views
@@ -117,6 +117,6 @@ AudioAMP-V1/
 ## 📝 License & Author
 
 - **Designer:** Stylt
-- **License:** Open-Source Hardware ([CC BY-NC-ND 4.0 License](LICENSE))
+- **License:** ([CC BY-NC-ND 4.0 License](LICENSE))
 
-> *Built with ❤️ for electronics and audio enthusiasts.*
+
