@@ -82,11 +82,12 @@ All production files required for manufacturing and PCBA assembly are located in
 ```text
 AudioAMP-V1/
 ├── hardware/              # KiCad project source files (.kicad_pro, .kicad_sch, .kicad_pcb)
+├── img/                   # Documentation graphics, 3D renders, and layer views
 ├── production/            # Manufacturing deliverables
 │   ├── bom/               # Bill of Materials (CSV)
 │   ├── gerbers/           # 4-Layer Gerber files (ZIP archive)
 │   └── schematics/        # Schematic diagram (PDF)
-├── img/                   # Documentation graphics, 3D renders, and layer views
+├── LICENSE.txt            # License
 └── README.md              # Main project documentation
 ```
 
