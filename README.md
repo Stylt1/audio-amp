@@ -8,8 +8,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/30509).
 ![EDA](https://img.shields.io/badge/EDA-KiCad-yellow)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-purple.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-This project features a custom-designed and efficient 4-layer Class-D stereo audio amplifier based on the popular **PAM8610** IC, delivering up to **2x 10W** output power.
-Designed by **Stylt**.
+This project features a 4-layer Class-D stereo audio amplifier based on **PAM8610** IC, delivering up to **2x 10W** output power.
+
 
 ---
 
@@ -27,17 +27,16 @@ Designed by **Stylt**.
 
 ## ✨ Key Features
 
-- **Powerful Amplification:** High-efficiency **PAM8610** (Class-D) stereo amplifier providing **2x 10W** output power (into 8Ω).
-- **4-Layer PCB Stackup:** 4-layer board design with dedicated power and ground planes for superior thermal dissipation, low EMI, and minimal signal crosstalk:
-  - **F.Cu (Top):** Component placement & signal routing
-  - **In1.Cu (Inner 1):** Solid Ground Plane (GND)
-  - **In2.Cu (Inner 2):** Power Plane (+12V / VCC)
-  - **B.Cu (Bottom):** Signal & secondary power routing
-- **Wide Supply Voltage Range:** Operates reliably from **9V to 12V DC** via standard 5.5 x 2.1 mm DC Barrel Jack.
-- **Integrated Volume & Power Control:** Quality **10K logarithmic potentiometer** with an integrated ON/OFF switch.
-- **Robust Connections:** 3.5 mm AUX stereo input jack and heavy-duty green screw terminal blocks for Left (L) and Right (R) speakers.
-- **Clean Audio Architecture:** Bulk **2200 µF** electrolytic decoupling capacitor on power supply lines + LC output filters (33µH/22µH inductors) for ripple noise reduction and high signal fidelity.
-- **Compact & Mountable:** M2 mounting holes, precise silkscreen labeling, and integrated decorative QR code.
+- **Amplification:** **PAM8610** (Class-D) stereo amplifier providing **2x 10W** output power.
+- **4-Layer PCB Stackup:** 4-layer board design with dedicated power and ground planes:
+  - **F.Cu (Top):** Signal + GND fill
+  - **In1.Cu (Inner 1):** GND fill
+  - **In2.Cu (Inner 2):** Power
+  - **B.Cu (Bottom):** Secondary signal + GND fill
+- **Supply Voltage Range:** from **9V to 12V DC** via standard DC05 DC Barrel Jack.
+- **Volume & Power Control:** **10K logarithmic potentiometer** with an ON/OFF switch.
+- **Robust Connections:** 3.5 mm AUX stereo input jack and screw terminal blocks for Left (L) and Right (R) speakers.
+- **Clean sound:** Bulk **2200 µF** electrolytic decoupling capacitor on power supply lines + LC output filters (33µH/22µH inductors) for ripple noise reduction and high signal fidelity.
 
 ---
 
