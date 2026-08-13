@@ -17,11 +17,8 @@ This project features a 4-layer Class-D stereo audio amplifier based on **PAM861
 - [✨ Key Features](#-key-features)
 - [🛠️ Hardware Specifications](#️-hardware-specifications)
 - [🧩 System Block Diagram](#-system-block-diagram)
-- [📦 Production & Manufacturing Files](#-production--manufacturing-files)
 - [📂 Repository Structure](#-repository-structure)
 - [📸 Gallery & Schematics](#-gallery--schematics)
-- [🚀 Getting Started](#-getting-started)
-- [📝 License & Author](#-license--author)
 
 ---
 
@@ -36,7 +33,7 @@ This project features a 4-layer Class-D stereo audio amplifier based on **PAM861
 - **Supply Voltage Range:** from **9V to 12V DC** via standard DC05 DC Barrel Jack.
 - **Volume & Power Control:** **10K logarithmic potentiometer** with an ON/OFF switch.
 - **Robust Connections:** 3.5 mm AUX stereo input jack and screw terminal blocks for Left (L) and Right (R) speakers.
-- **Clean sound:** Bulk **2200 µF** electrolytic decoupling capacitor on power supply lines + LC output filters (33µH/22µH inductors) for ripple noise reduction and high signal fidelity.
+- **Clean sound:** Bulk **2200 µF** electrolytic decoupling capacitor on power supply lines + LC output filters (33µH inductors) for ripple noise reduction and high signal fidelity.
 
 ---
 
